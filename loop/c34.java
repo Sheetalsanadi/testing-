@@ -1,0 +1,25 @@
+class c34     //sunny number 
+{
+	public static void main(String[] args) 
+	{
+		int num=15;
+		int num1=num+1;
+		int count=0;
+		int i=1;
+		while(i<=num1/2)
+		{
+			if(num1==i*i)
+			{
+				count++;
+				break;
+			}
+			i++;
+		}
+		if(count==1)
+		{
+		System.out.println("sunny number");
+		}
+		else
+			System.out.println("not a sunny number");
+	}
+}

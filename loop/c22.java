@@ -1,0 +1,13 @@
+class c22 
+{
+	public static void main(String[] args) 
+	{
+		int a=56;
+		int b=20;
+		int c=15;
+		int d=a>b?a:b;
+		int e=c>d?c:d;
+		System.out.println(e+ " is a largest number");
+		
+	}
+}

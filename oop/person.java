@@ -1,0 +1,11 @@
+class person
+{
+	 String name;
+	 String qulification;
+	 job s1;
+	 void interview(String name)
+	{
+		 s1=new job();
+		System.out.println(name+" is attending interview");
+	}
+}

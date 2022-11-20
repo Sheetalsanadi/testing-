@@ -1,0 +1,9 @@
+class c15 
+{
+	public static void main(String[] args) 
+	{
+		int num=4;
+		int sq=num*num;
+		System.out.println(sq);
+	}
+}

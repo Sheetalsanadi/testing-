@@ -1,0 +1,14 @@
+class c24 
+{
+	public static void main(String[] args) 
+	{
+		int a=2002;
+		if(a%4==0)
+		{
+		System.out.println( a+" leap year");
+		}
+		else
+			System.out.println(a+" not a leap year");
+
+	}
+}

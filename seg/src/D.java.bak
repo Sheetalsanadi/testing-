@@ -1,0 +1,9 @@
+package pack4;
+import pack3.C;
+class D
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(C.a);
+	}
+}

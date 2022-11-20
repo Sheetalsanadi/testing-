@@ -1,0 +1,10 @@
+class saadriver 
+{
+	public static void main(String[] args) 
+	{
+		saa s1=new saa(123,"ABC",19000,"CNRB001234");
+		s1.display();
+		s1.withdrawn(50000);
+		s1.deposit(20000);
+	}
+}

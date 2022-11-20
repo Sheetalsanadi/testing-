@@ -1,0 +1,24 @@
+class c27  
+{
+	public static void main(String[] args) 
+	{
+		int a=20;
+		int b=10;
+		int c=7;
+		int d=22;
+		if(a<b && a<c && a<d)
+		{
+		System.out.println(a+" is a smallest number");
+		}
+		else if(b<c && b<d)
+		{
+		System.out.println(b+" is a smallest number");
+		}
+		else if(c<d)
+		{
+		System.out.println(c+" is a smallest number");
+		}
+		else
+		System.out.println(d+" is a smallest number");
+	}
+}

@@ -1,0 +1,17 @@
+class d16 
+{
+	public static void main(String[] args) 
+	{
+		int a=24;
+		int i=1;
+		do
+		{
+			if(a%i==0)
+			{
+		System.out.println(i);
+			}
+			i++;
+		}
+		while(i<=a);
+	}
+}

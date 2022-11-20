@@ -1,0 +1,24 @@
+class c19 
+{
+	public static void main(String[] args) 
+	{
+		int c=0;
+		int num=14;
+		int i=2;
+		while(i<num)
+		{
+			if(num%i==0)
+			{
+				c++;
+				break;
+			}
+			i++;
+		}
+		if(c==0)
+		{
+		System.out.println("prime");
+		}
+		else
+		System.out.println("not prime");
+	}
+}
